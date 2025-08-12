@@ -1,0 +1,236 @@
+{
+  "1.corefoundations": {
+    "title": "1. core foundations",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=1.+core+foundations"
+      ]
+    ]
+  },
+  "[]arrays(operations,applications)": {
+    "title": "[ ]  arrays (operations, applications)",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[+]++arrays+(operations,+applications)"
+      ]
+    ]
+  },
+  "[]linkedlists(singly/doubly/circular)": {
+    "title": "[ ]  linked lists (singly/doubly/circular)",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[+]++linked+lists+(singly/doubly/circular)"
+      ]
+    ]
+  },
+  "[]queues(simple,circular,deque)": {
+    "title": "[ ]  queues (simple, circular, deque)",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[+]++queues+(simple,+circular,+deque)"
+      ]
+    ]
+  },
+  "2.basicsearching": {
+    "title": "2. basic searching",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=2.+basic+searching"
+      ]
+    ]
+  },
+  "[]linearsearch": {
+    "title": "[ ]  linear search",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[+]++linear+search"
+      ]
+    ]
+  },
+  "[x]binarysearch(iterativeandrecursive)": {
+    "title": "[x]  binary search (iterative and recursive)",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[x]++binary+search+(iterative+and+recursive)"
+      ]
+    ]
+  },
+  "3.basicsorting": {
+    "title": "3. basic sorting",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=3.+basic+sorting"
+      ]
+    ]
+  },
+  "[]bubblesort": {
+    "title": "[ ]  bubble sort",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[+]++bubble+sort"
+      ]
+    ]
+  },
+  "[]selectionsort": {
+    "title": "[ ]  selection sort",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[+]++selection+sort"
+      ]
+    ]
+  },
+  "[]insertionsort": {
+    "title": "[ ]  insertion sort",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[+]++insertion+sort"
+      ]
+    ]
+  },
+  "[]mergesort": {
+    "title": "[ ]  merge sort",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[+]++merge+sort"
+      ]
+    ]
+  },
+  "[]quicksort": {
+    "title": "[ ]  quick sort",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[+]++quick+sort"
+      ]
+    ]
+  },
+  "[]heapsort": {
+    "title": "[ ]  heap sort",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[+]++heap+sort"
+      ]
+    ]
+  },
+  "[]countingsort": {
+    "title": "[ ]  counting sort",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[+]++counting+sort"
+      ]
+    ]
+  },
+  "[]radixsort": {
+    "title": "[ ]  radix sort",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[+]++radix+sort"
+      ]
+    ]
+  },
+  "[]bucketsort(optional)": {
+    "title": "[ ]  bucket sort (optional)",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[+]++bucket+sort+(optional)"
+      ]
+    ]
+  },
+  "[]shellsort(optional)": {
+    "title": "[ ]  shell sort (optional)",
+    "short": "",
+    "time": "",
+    "space": "",
+    "code": "",
+    "links": [
+      [
+        "YouTube - Search",
+        "https://www.youtube.com/results?search_query=[+]++shell+sort+(optional)"
+      ]
+    ]
+  }
+}
