@@ -8,7 +8,8 @@ from discord.ext import commands, tasks
 
 load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
-UPDATE_INTERVAL_MINUTES = int(os.getenv("UPDATE_INTERVAL_MINUTES", "1440"))
+# Correctly read the interval in hours and convert to minutes for the task
+UPDATE_INTERVAL_HOURS = int(os.getenv("UPDATE_INTERVAL_HOURS", "24"))
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(levelname)-8s %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
 intents = discord.Intents.default()
@@ -20,8 +21,11 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 async def on_ready():
     logging.info(f"Logged in as {bot.user} (id: {bot.user.id})")
     logging.info("DSA Master Bot is now online and ready.")
+    # Start the periodic update task only after the bot is ready
+    if not periodic_update.is_running():
+        periodic_update.start()
 
-# --- All command definitions remain the same ---
+# --- Command definitions remain the same ---
 @bot.command(name="dsa")
 async def dsa_command(ctx, *, topic: str):
     await dsa.handle_dsa(ctx, topic)
@@ -42,38 +46,34 @@ async def help_command(ctx):
     embed.add_field(name="!challenge", value="Get a random LeetCode problem", inline=False)
     await ctx.send(embed=embed)
 
-
-# This function will be called by the task loop
-async def run_update_in_executor():
+# --- Task loop and main execution block ---
+async def run_update_in_executor(force=False):
     loop = asyncio.get_running_loop()
-    # Use run_in_executor to avoid blocking the bot's event loop
-    await loop.run_in_executor(None, update_all_data)
+    # Use run_in_executor to run the blocking update function
+    await loop.run_in_executor(None, update_all_data, force)
 
-@tasks.loop(minutes=UPDATE_INTERVAL_MINUTES)
+# Run the task every N hours as defined in your environment
+@tasks.loop(hours=UPDATE_INTERVAL_HOURS)
 async def periodic_update():
-    logging.info("Periodic update started: Generating data with AI.")
+    logging.info("Periodic update check started.")
     try:
         await run_update_in_executor()
-        logging.info("Periodic update finished successfully.")
+        logging.info("Periodic update check finished.")
     except Exception as e:
         logging.error(f"Periodic update failed: {e}")
 
-# --- MODIFIED: Main execution block ---
 async def main():
-    # Perform the initial data update first
-    logging.info("Performing initial data update before starting the bot...")
+    # Perform the initial data update only if necessary
+    logging.info("Performing initial data check before starting the bot...")
     from utils.data_updater import update_all_data
-    update_all_data()
-    logging.info("Initial update completed successfully.")
+    # On the first run, force an update if data doesn't exist.
+    update_all_data(force_update=not os.path.exists("data/dsa_topics.json"))
+    logging.info("Initial data check completed.")
 
-    # Now, start the bot and the periodic task loop
     async with bot:
-        periodic_update.start()
         await bot.start(TOKEN)
 
 if __name__ == "__main__":
-    # This setup ensures the initial update runs, then the bot logs in,
-    # and the scheduled task waits for its next interval.
     from commands import dsa, resources, challenge
     from utils.data_updater import update_all_data
     try:

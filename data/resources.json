@@ -6,7 +6,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=l2oZfqvL5c4"
+      "https://www.youtube.com/watch?v=B35l9y3qKBE"
     ],
     [
       "LeetCode Problems",
@@ -20,7 +20,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=njFHsLyN9zc"
+      "https://www.youtube.com/watch?v=WwfhLC16bis"
     ],
     [
       "LeetCode Problems",
@@ -34,7 +34,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=F1F2imiOJfk"
+      "https://www.youtube.com/watch?v=MuwxVVjZ73M"
     ],
     [
       "LeetCode Problems",
@@ -48,7 +48,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=jaKzmsKp4HM"
+      "https://www.youtube.com/watch?v=M9XEu0Y9eVM"
     ],
     [
       "LeetCode Problems",
@@ -62,11 +62,11 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=CZ3l_v29xFY"
+      "https://www.youtube.com/watch?v=CZ3y5c75vsI"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problemset/all/?search=Linear%20Search"
+      "https://leetcode.com/tag/linear-search/"
     ]
   ],
   "binary-search": [
@@ -76,11 +76,25 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=oSU5jGiGq1U"
+      "https://www.youtube.com/watch?v=ZR_AoW-3ehs"
     ],
     [
       "LeetCode Problems",
       "https://leetcode.com/tag/binary-search/"
+    ]
+  ],
+  "bubble-sort": [
+    [
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/bubble-sort/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=nmhjrI-aW5o"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/bubble-sort/"
     ]
   ],
   "selection-sort": [
@@ -104,11 +118,25 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=JU767MXtY7I"
+      "https://www.youtube.com/watch?v=OGzPmGSv3Nw"
     ],
     [
       "LeetCode Problems",
       "https://leetcode.com/tag/insertion-sort/"
+    ]
+  ],
+  "complex-sorting-and-divide": [
+    [
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/external-sorting/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=2Jk9-gP7VlQ"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/problemset/all/?search=external%20sort"
     ]
   ],
   "merge-sort": [
@@ -118,7 +146,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=KF2j-9i8WkA"
+      "https://www.youtube.com/watch?v=KF2j-9i8lB8"
     ],
     [
       "LeetCode Problems",
@@ -132,7 +160,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=MZaf_9IZCrc"
+      "https://www.youtube.com/watch?v=QN7wKt9K_nM"
     ],
     [
       "LeetCode Problems",
@@ -146,7 +174,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=MtQL_LL5c20"
+      "https://www.youtube.com/watch?v=HqPJF2L5h9U"
     ],
     [
       "LeetCode Problems",
@@ -160,11 +188,39 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=4YRqE-uNJYM"
+      "https://www.youtube.com/watch?v=O9dN20RA-b8"
     ],
     [
       "LeetCode Problems",
       "https://leetcode.com/tag/sort/"
+    ]
+  ],
+  "radix-sort": [
+    [
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/radix-sort/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=YXkCpN23-Vw"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/radix-sort/"
+    ]
+  ],
+  "bucket-sort": [
+    [
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/bucket-sort-2/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=VuXyxqgC5yA"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/problem-list/eY0t8JmD/"
     ]
   ],
   "shell-sort": [
@@ -174,7 +230,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=ddeLefj44lw"
+      "https://www.youtube.com/watch?v=CmPA7zE8mx0"
     ],
     [
       "LeetCode Problems",
@@ -188,39 +244,11 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=MfhjkfocRR0"
+      "https://www.youtube.com/watch?v=shs0KM3wKv8"
     ],
     [
       "LeetCode Problems",
       "https://leetcode.com/tag/hash-table/"
-    ]
-  ],
-  "hash-sets": [
-    [
-      "GeeksforGeeks Article",
-      "https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/"
-    ],
-    [
-      "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=w30o_EXB7lU"
-    ],
-    [
-      "LeetCode Problems",
-      "https://leetcode.com/tag/hash-table/"
-    ]
-  ],
-  "recursion": [
-    [
-      "GeeksforGeeks Article",
-      "https://www.geeksforgeeks.org/recursion/"
-    ],
-    [
-      "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=Mv9NEXX1VHc"
-    ],
-    [
-      "LeetCode Problems",
-      "https://leetcode.com/problem-list/recursion-i/"
     ]
   ],
   "principles-and-examples": [
@@ -230,7 +258,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=JsUTriDkm-g"
+      "https://www.youtube.com/watch?v=VgvKypAPYA0"
     ],
     [
       "LeetCode Problems",
@@ -244,21 +272,21 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=Mv9NEXX1VHc"
+      "https://www.youtube.com/watch?v=KEEKn7Me-64"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problemset/all/?topicSlugs=recursion"
+      "https://leetcode.com/problem-list/recursion-i/"
     ]
   ],
   "backtracking-recursion-basics": [
     [
       "GeeksforGeeks Article",
-      "https://www.geeksforgeeks.org/backtracking-algorithms/"
+      "https://www.geeksforgeeks.org/backtracking-algorithm/"
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=DKCbsiDBKcw"
+      "https://www.youtube.com/watch?v=DKCbsiDBiAg"
     ],
     [
       "LeetCode Problems",
@@ -272,7 +300,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=B4btxZPd_t8"
+      "https://www.youtube.com/watch?v=jFJu5_H_aIY"
     ],
     [
       "LeetCode Problems",
@@ -286,7 +314,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=jvYhJUQjT5A"
+      "https://www.youtube.com/watch?v=j3t8T8cO868"
     ],
     [
       "LeetCode Problems",
@@ -314,7 +342,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=mN6tV-i7y9w"
+      "https://www.youtube.com/watch?v=Paj7Q6Nbg1c"
     ],
     [
       "LeetCode Problems",
@@ -328,7 +356,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=TQ9U57iJJyk"
+      "https://www.youtube.com/watch?v=AXjmTQ8LEoI"
     ],
     [
       "LeetCode Problems",
@@ -338,7 +366,7 @@
   "segment-tree": [
     [
       "GeeksforGeeks Article",
-      "https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/"
+      "https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/"
     ],
     [
       "YouTube Tutorial",
@@ -366,11 +394,11 @@
   "disjoint-set-union": [
     [
       "GeeksforGeeks Article",
-      "https://www.geeksforgeeks.org/disjoint-set-data-structure/"
+      "https://www.geeksforgeeks.org/disjoint-set-data-structures/"
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=VJlP9w71e8Y"
+      "https://www.youtube.com/watch?v=VHRhEuftcX4"
     ],
     [
       "LeetCode Problems",
@@ -384,7 +412,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=p96dFJuJ5rM"
+      "https://www.youtube.com/watch?v=RBg7G-G9tRQ"
     ],
     [
       "LeetCode Problems",
@@ -405,6 +433,48 @@
       "https://leetcode.com/tag/heap-priority-queue/"
     ]
   ],
+  "suffix-array-and-suffix-tree": [
+    [
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/suffix-array-set-1introduction/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=HKPrVmEwiAk"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/suffix-array/"
+    ]
+  ],
+  "b-trees": [
+    [
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/b-tree/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=mK6iJvB8vHE"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/btree/"
+    ]
+  ],
+  "bloom-filter": [
+    [
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/bloom-filters-introduction-and-python-implementation/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=qV_B5h3lGjE"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/discuss/interview-question/436472/Facebook-or-Bloomberg-or-Bloom-Filter-Implementation"
+    ]
+  ],
   "greedy-algorithms": [
     [
       "GeeksforGeeks Article",
@@ -412,7 +482,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=ARvKFc5jJRs"
+      "https://www.youtube.com/watch?v=ARvKFCfj-nI"
     ],
     [
       "LeetCode Problems",
@@ -426,11 +496,11 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=II6ziNqyOxI"
+      "https://www.youtube.com/watch?v=II6ziATlMGM"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problem-list/5050848008466544/"
+      "https://leetcode.com/problem-list/5502rv0/"
     ]
   ],
   "huffman-coding": [
@@ -440,7 +510,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=JAHYR6qiWLs"
+      "https://www.youtube.com/watch?v=ZdooBTgKl-U"
     ],
     [
       "LeetCode Problems",
@@ -454,11 +524,11 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=F_DDzYnxO14"
+      "https://www.youtube.com/watch?v=F_DDzYnxDQY"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problem-list/knapsack-problems/"
+      "https://leetcode.com/problemset/all/?search=Knapsack"
     ]
   ],
   "job-sequencing-with-deadlines": [
@@ -468,11 +538,11 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=LjPx3c1L8l8"
+      "https://www.youtube.com/watch?v=LjPxM_U4hbc"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problem-list/job-scheduling-algorithms/"
+      "https://leetcode.com/discuss/interview-question/439660/google-online-assessment-job-sequencing"
     ]
   ],
   "dijkstra": [
@@ -482,7 +552,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=pVfj6mNz1gY"
+      "https://www.youtube.com/watch?v=pVfj6mxhdfw"
     ],
     [
       "LeetCode Problems",
@@ -496,7 +566,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=OQ5uA2x0c_I"
+      "https://www.youtube.com/watch?v=OQ5uWjEuc3E"
     ],
     [
       "LeetCode Problems",
@@ -510,11 +580,11 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=oBT53jJkQGc"
+      "https://www.youtube.com/watch?v=oBTpM00iM5Y"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/fibonacci-number/"
+      "https://leetcode.com/tag/fibonacci/"
     ]
   ],
   "coin-change": [
@@ -552,7 +622,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=NnD96BjUcb0"
+      "https://www.youtube.com/watch?v=NnD96BjUjIo"
     ],
     [
       "LeetCode Problems",
@@ -580,11 +650,11 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=DcaHhhK-Y84"
+      "https://www.youtube.com/watch?v=k3i1j0H_i3o"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problem-list/2y3m824/"
+      "https://leetcode.com/tag/dynamic-programming/"
     ]
   ],
   "subset-sum": [
@@ -598,17 +668,17 @@
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problemset/all/?search=subset%20sum"
+      "https://leetcode.com/tag/dynamic-programming/"
     ]
   ],
   "dp-on-trees": [
     [
       "GeeksforGeeks Article",
-      "https://www.geeksforgeeks.org/dynamic-programming-trees/"
+      "https://www.geeksforgeeks.org/maximum-independent-set-problem/"
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=nPtARJ2n9pw"
+      "https://www.youtube.com/watch?v=n0e7V-u8u9E"
     ],
     [
       "LeetCode Problems",
@@ -618,11 +688,11 @@
   "backtracking-algorithms": [
     [
       "GeeksforGeeks Article",
-      "https://www.geeksforgeeks.org/backtracking-algorithms/"
+      "https://www.geeksforgeeks.org/backtracking-algorithm/"
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=xWa_qJ8l4qE"
+      "https://www.youtube.com/watch?v=DKCbsiDBrug"
     ],
     [
       "LeetCode Problems",
@@ -636,7 +706,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=sSjp7i3U7qE"
+      "https://www.youtube.com/watch?v=sSn-a1nFq9U"
     ],
     [
       "LeetCode Problems",
@@ -654,7 +724,7 @@
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problemset/all/?search=Power%20Set"
+      "https://leetcode.com/tag/subset/"
     ]
   ],
   "n-queens": [
@@ -664,7 +734,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=xFJXtB5QN4c"
+      "https://www.youtube.com/watch?v=xFv_Hl4mXNc"
     ],
     [
       "LeetCode Problems",
@@ -678,7 +748,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=G_UYXzGuqv8"
+      "https://www.youtube.com/watch?v=G_UYXzGuqvQ"
     ],
     [
       "LeetCode Problems",
@@ -692,11 +762,11 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=bLBjG1vK5Fg"
+      "https://www.youtube.com/watch?v=wGbuDUtRMEs"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problem-list/rat-in-a-maze/"
+      "https://leetcode.com/problem-list/2z2c5t1/"
     ]
   ],
   "m-coloring-problem": [
@@ -706,11 +776,11 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=05m_lb1_yQc"
+      "https://www.youtube.com/watch?v=05H0i1Wd4Ww"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problem-list/2v4y5j2/"
+      "https://leetcode.com/tag/graph/"
     ]
   ],
   "graph-algorithms": [
@@ -720,7 +790,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=pVfj6mxhdfw"
+      "https://www.youtube.com/watch?v=tKuo9dQc3l4"
     ],
     [
       "LeetCode Problems",
@@ -734,7 +804,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=gXEuqjv9l_4"
+      "https://www.youtube.com/watch?v=gXEuZHg1Uc8"
     ],
     [
       "LeetCode Problems",
@@ -748,7 +818,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=TIbUeeksXcI"
+      "https://www.youtube.com/watch?v=QrJdfX4gJXM"
     ],
     [
       "LeetCode Problems",
@@ -758,11 +828,11 @@
   "minimum-spanning-tree": [
     [
       "GeeksforGeeks Article",
-      "https://www.geeksforgeeks.org/minimum-spanning-tree/"
+      "https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/"
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=4ZlRH0eK-ds"
+      "https://www.youtube.com/watch?v=fAuF0EuZlUc"
     ],
     [
       "LeetCode Problems",
@@ -776,7 +846,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=rtFG9Czydlc"
+      "https://www.youtube.com/watch?v=rt_PqMDm-0Y"
     ],
     [
       "LeetCode Problems",
@@ -804,7 +874,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=eL-KzMXSXXI"
+      "https://www.youtube.com/watch?v=eL-K9EOGqTg"
     ],
     [
       "LeetCode Problems",
@@ -818,7 +888,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=RYaakW5x7uE"
+      "https://www.youtube.com/watch?v=2eB-K5yZXWI"
     ],
     [
       "LeetCode Problems",
@@ -832,7 +902,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=Rpgvoz6x8mw"
+      "https://www.youtube.com/watch?v=RpgcYiky7uw"
     ],
     [
       "LeetCode Problems",
@@ -860,7 +930,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=nDMj34w-eq0"
+      "https://www.youtube.com/watch?v=w9bK0Yt-wus"
     ],
     [
       "LeetCode Problems",
@@ -874,11 +944,11 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=GTJrB7IDVdg"
+      "https://www.youtube.com/watch?v=GTJrB_wm_L0"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/string-matching/"
+      "https://leetcode.com/tag/string/"
     ]
   ],
   "kmp": [
@@ -888,7 +958,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=GTJrBwHkQnc"
+      "https://www.youtube.com/watch?v=GTJrB_0WzGk"
     ],
     [
       "LeetCode Problems",
@@ -902,7 +972,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=QHBhPXOGJ1Y"
+      "https://www.youtube.com/watch?v=QzW66wVbm38"
     ],
     [
       "LeetCode Problems",
@@ -912,43 +982,15 @@
   "z-algorithm": [
     [
       "GeeksforGeeks Article",
-      "https://www.geeksforgeeks.org/z-algorithm-string-pattern-searching/"
+      "https://www.geeksforgeeks.org/z-algorithm-linear-time-pattern-searching-algorithm/"
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=JoF2MWMa8_U"
+      "https://www.youtube.com/watch?v=JoF0Z7iCQVA"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problem-list/2206x16/"
-    ]
-  ],
-  "suffix-array": [
-    [
-      "GeeksforGeeks Article",
-      "https://www.geeksforgeeks.org/suffix-array-set-1-introduction/"
-    ],
-    [
-      "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=m0X3-8F4FGw"
-    ],
-    [
-      "LeetCode Problems",
-      "https://leetcode.com/tag/suffix-array/"
-    ]
-  ],
-  "bit-manipulation": [
-    [
-      "GeeksforGeeks Article",
-      "https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/"
-    ],
-    [
-      "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=NLkq3685pCw"
-    ],
-    [
-      "LeetCode Problems",
-      "https://leetcode.com/tag/bit-manipulation/"
+      "https://leetcode.com/problem-list/zwppj0c/"
     ]
   ],
   "basic-operations": [
@@ -958,7 +1000,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=j2wqX9L16io"
+      "https://www.youtube.com/watch?v=D97hZwP-Pzg"
     ],
     [
       "LeetCode Problems",
@@ -972,7 +1014,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=I1R8W9K6-3U"
+      "https://www.youtube.com/watch?v=K86x0Lz8E_w"
     ],
     [
       "LeetCode Problems",
@@ -986,7 +1028,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=jEuC3FhcqZY"
+      "https://www.youtube.com/watch?v=KJQrZ9l4imQ"
     ],
     [
       "LeetCode Problems",
@@ -996,15 +1038,15 @@
   "bitmask-dp": [
     [
       "GeeksforGeeks Article",
-      "https://www.geeksforgeeks.org/travelling-salesman-problem-using-dynamic-programming/"
+      "https://www.geeksforgeeks.org/bitmasking-and-dynamic-programming-set-1-tsp/"
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=JE0JE8ce1V8"
+      "https://www.youtube.com/watch?v=4fQG_3xmc2g"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/dynamic-programming/"
+      "https://leetcode.com/tag/bitmask/"
     ]
   ],
   "tree": [
@@ -1014,7 +1056,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=qH6yxkw0v-s"
+      "https://www.youtube.com/watch?v=oSWTXtMgl90"
     ],
     [
       "LeetCode Problems",
@@ -1032,7 +1074,7 @@
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/tree/"
+      "https://leetcode.com/tag/binary-tree/"
     ]
   ],
   "morris-traversal": [
@@ -1056,7 +1098,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=X8tM-8Ld_E8"
+      "https://www.youtube.com/watch?v=H3Pq-F9tJ9g"
     ],
     [
       "LeetCode Problems",
@@ -1070,7 +1112,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=oSU5jGiGfjI"
+      "https://www.youtube.com/watch?v=oSU5jGiGjAY"
     ],
     [
       "LeetCode Problems",
@@ -1094,15 +1136,15 @@
   "fast-exponentiation": [
     [
       "GeeksforGeeks Article",
-      "https://www.geeksforgeeks.org/exponential-squaring-fast-exponentiation/"
+      "https://www.geeksforgeeks.org/exponentiation-by-squaring/"
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=e0IgKl2mU9w"
+      "https://www.youtube.com/watch?v=Lgo6E5zLz_M"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/powx-n/"
+      "https://leetcode.com/problem-list/57344w6/"
     ]
   ],
   "randomized-algorithms": [
@@ -1112,11 +1154,11 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=jgvKjGE-D1c"
+      "https://www.youtube.com/watch?v=6vF5XyCT_eM"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problemset/all/?topicSlugs=random"
+      "https://leetcode.com/problemset/all/?search=randomized"
     ]
   ],
   "lru-cache-implementation": [
@@ -1135,16 +1177,16 @@
   ],
   "practice-and-patterns": [
     [
-      "GeeksforGeeks Design Patterns",
-      "https://www.geeksforgeeks.org/design-patterns-set-1-introduction/"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/singleton-design-pattern/"
     ],
     [
-      "Derek Banas YouTube - Design Patterns",
-      "https://www.youtube.com/playlist?list=PLF206E90617C7E4A7"
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=A32Uj-E5HkY"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problem-list/design-patterns/"
+      "https://leetcode.com/problemset/all/?search=singleton"
     ]
   ],
   "mock-interview-rounds": [
@@ -1154,25 +1196,25 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=09wG4p_y4Hg"
+      "https://www.youtube.com/watch?v=m3_n_t-2g28"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problemset/all/"
+      "https://leetcode.com/problem-list/top-interview-questions/"
     ]
   ],
   "time-and-space-complexity-analysis": [
     [
       "GeeksforGeeks Article",
-      "https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/"
+      "https://www.geeksforgeeks.org/understanding-time-complexity-simple-guide/"
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=v4cd17u9wOU"
+      "https://www.youtube.com/watch?v=v4cd1O4zkGw"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/problem-list/xoq0x12/"
+      "https://leetcode.com/problemset/all/?topicSlugs=time-complexity"
     ]
   ],
   "edge": [
@@ -1182,7 +1224,7 @@
     ],
     [
       "YouTube Tutorial",
-      "https://www.youtube.com/watch?v=gXEuZWf7p-Y"
+      "https://www.youtube.com/watch?v=gXEuC6j273Y"
     ],
     [
       "LeetCode Problems",
