@@ -1,110 +1,422 @@
 {
-  "1.corefoundations": [
+  "arrays": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=1.+core+foundations"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Arrays+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/arrays/"
     ]
   ],
-  "[]arrays(operations,applications)": [
+  "linkedlists": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[+]++arrays+(operations,+applications)"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Linked+Lists+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/linked-lists/"
     ]
   ],
-  "[]linkedlists(singly/doubly/circular)": [
+  "stacks": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[+]++linked+lists+(singly/doubly/circular)"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Stacks+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/stacks/"
     ]
   ],
-  "[]queues(simple,circular,deque)": [
+  "queues": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[+]++queues+(simple,+circular,+deque)"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Queues+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/queues/"
     ]
   ],
-  "2.basicsearching": [
+  "binarysearch": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=2.+basic+searching"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Binary+Search+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/binary-search/"
     ]
   ],
-  "[]linearsearch": [
+  "linearsearch": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[+]++linear+search"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Linear+Search+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/linear-search/"
     ]
   ],
-  "[x]binarysearch(iterativeandrecursive)": [
+  "bubblesort": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[x]++binary+search+(iterative+and+recursive)"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Bubble+Sort+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/bubble-sort/"
     ]
   ],
-  "3.basicsorting": [
+  "selectionsort": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=3.+basic+sorting"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Selection+Sort+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/selection-sort/"
     ]
   ],
-  "[]bubblesort": [
+  "insertionsort": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[+]++bubble+sort"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Insertion+Sort+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/insertion-sort/"
     ]
   ],
-  "[]selectionsort": [
+  "mergesort": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[+]++selection+sort"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Merge+Sort+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/merge-sort/"
     ]
   ],
-  "[]insertionsort": [
+  "quicksort": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[+]++insertion+sort"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Quick+Sort+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/quick-sort/"
     ]
   ],
-  "[]mergesort": [
+  "heapsort": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[+]++merge+sort"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Heap+Sort+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/heap-sort/"
     ]
   ],
-  "[]quicksort": [
+  "binarytrees": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[+]++quick+sort"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Binary+Trees+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/binary-trees/"
     ]
   ],
-  "[]heapsort": [
+  "binarysearchtrees": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[+]++heap+sort"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Binary+Search+Trees+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/binary-search-trees/"
     ]
   ],
-  "[]countingsort": [
+  "avltrees": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[+]++counting+sort"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=AVL+Trees+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/avl-trees/"
     ]
   ],
-  "[]radixsort": [
+  "redblacktrees": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[+]++radix+sort"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Red-Black+Trees+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/red-black-trees/"
     ]
   ],
-  "[]bucketsort(optional)": [
+  "heaps": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[+]++bucket+sort+(optional)"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Heaps+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/heaps/"
     ]
   ],
-  "[]shellsort(optional)": [
+  "hashtables": [
     [
-      "YouTube - Search",
-      "https://www.youtube.com/results?search_query=[+]++shell+sort+(optional)"
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Hash+Tables+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/hash-tables/"
+    ]
+  ],
+  "graphs": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Graphs+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/graphs/"
+    ]
+  ],
+  "dfs": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=DFS+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/dfs/"
+    ]
+  ],
+  "bfs": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=BFS+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/bfs/"
+    ]
+  ],
+  "dijkstra": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Dijkstra+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/dijkstra/"
+    ]
+  ],
+  "bellmanford": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Bellman+Ford+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/bellman-ford/"
+    ]
+  ],
+  "floydwarshall": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Floyd+Warshall+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/floyd-warshall/"
+    ]
+  ],
+  "dynamicprogramming": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Dynamic+Programming+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/dynamic-programming/"
+    ]
+  ],
+  "greedyalgorithms": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Greedy+Algorithms+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/greedy-algorithms/"
+    ]
+  ],
+  "backtracking": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Backtracking+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/backtracking/"
+    ]
+  ],
+  "divideandconquer": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Divide+and+Conquer+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/divide-and-conquer/"
+    ]
+  ],
+  "twopointers": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Two+Pointers+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/two-pointers/"
+    ]
+  ],
+  "slidingwindow": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Sliding+Window+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/sliding-window/"
+    ]
+  ],
+  "fastandslowpointers": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Fast+and+Slow+Pointers+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/fast-and-slow-pointers/"
+    ]
+  ],
+  "mergeintervals": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Merge+Intervals+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/merge-intervals/"
+    ]
+  ],
+  "cyclicsort": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Cyclic+Sort+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/cyclic-sort/"
+    ]
+  ],
+  "treedfs": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Tree+DFS+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/tree-dfs/"
+    ]
+  ],
+  "treebfs": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Tree+BFS+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/tree-bfs/"
+    ]
+  ],
+  "graphdfs": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Graph+DFS+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/graph-dfs/"
+    ]
+  ],
+  "graphbfs": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Graph+BFS+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/graph-bfs/"
+    ]
+  ],
+  "trie": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Trie+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/trie/"
+    ]
+  ],
+  "unionfind": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Union+Find+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/union-find/"
+    ]
+  ],
+  "topologicalsort": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Topological+Sort+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/topological-sort/"
+    ]
+  ],
+  "minimumspanningtree": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Minimum+Spanning+Tree+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/minimum-spanning-tree/"
+    ]
+  ],
+  "shortestpath": [
+    [
+      "YouTube Search",
+      "https://www.youtube.com/results?search_query=Shortest+Path+algorithm+tutorial"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/shortest-path/"
     ]
   ]
 }

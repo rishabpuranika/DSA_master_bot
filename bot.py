@@ -26,17 +26,32 @@ async def on_ready():
     if not periodic_update.is_running():
         periodic_update.start()
 
-@bot.command()
-async def dsa_cmd(ctx, *, topic: str):
+# Fixed command names to match the actual function names
+@bot.command(name="dsa")
+async def dsa_command(ctx, *, topic: str):
+    """Get DSA topic information. Usage: !dsa binary search"""
     await dsa.handle_dsa(ctx, topic)
 
-@bot.command()
-async def resources_cmd(ctx, *, topic: str):
+@bot.command(name="resources")
+async def resources_command(ctx, *, topic: str):
+    """Get resources for a topic. Usage: !resources arrays"""
     await resources.handle_resources(ctx, topic)
 
-@bot.command()
-async def challenge_cmd(ctx):
+@bot.command(name="challenge")
+async def challenge_command(ctx):
+    """Get a random LeetCode problem. Usage: !challenge"""
     await challenge.handle_challenge(ctx)
+
+# Add help command
+@bot.command(name="help_dsa")
+async def help_command(ctx):
+    """Show available commands"""
+    embed = discord.Embed(title="DSA Master Bot Commands", color=0x3498DB)
+    embed.add_field(name="!dsa <topic>", value="Get detailed info about a DSA topic", inline=False)
+    embed.add_field(name="!resources <topic>", value="Get learning resources for a topic", inline=False)
+    embed.add_field(name="!challenge", value="Get a random LeetCode problem", inline=False)
+    embed.add_field(name="Examples", value="!dsa binary search\n!resources arrays\n!challenge", inline=False)
+    await ctx.send(embed=embed)
 
 async def run_update_in_executor():
     loop = asyncio.get_running_loop()
@@ -46,14 +61,20 @@ async def run_update_in_executor():
 @tasks.loop(minutes=UPDATE_INTERVAL_MINUTES)
 async def periodic_update():
     logging.info("Periodic update started: scraping Notion & enrichment sources.")
-    await run_update_in_executor()
-    logging.info("Periodic update finished.")
+    try:
+        await run_update_in_executor()
+        logging.info("Periodic update finished successfully.")
+    except Exception as e:
+        logging.error(f"Periodic update failed: {e}")
 
 # run initial update before connecting
 async def pre_run_update():
     logging.info("Performing initial data update...")
-    await run_update_in_executor()
-    logging.info("Initial update done.")
+    try:
+        await run_update_in_executor()
+        logging.info("Initial update completed successfully.")
+    except Exception as e:
+        logging.error(f"Initial update failed: {e}")
 
 if __name__ == "__main__":
     asyncio.run(pre_run_update())
