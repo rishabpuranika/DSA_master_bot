@@ -1,9 +1,10 @@
-# utils/notion_client.py - IMPROVED VERSION
+# utils/notion_client.py - ROBUST SCRAPING VERSION
 import os
 import requests
 from bs4 import BeautifulSoup
 import logging
 import re
+import json
 
 NOTION_TOKEN = os.getenv("NOTION_TOKEN")
 NOTION_DATABASE_ID = os.getenv("NOTION_DATABASE_ID")
@@ -12,21 +13,87 @@ def format_notion_id(notion_id):
     """Convert 32-char hex string to UUID format that Notion API expects"""
     if not notion_id:
         return notion_id
-    
-    # Remove any existing dashes and spaces
     clean_id = notion_id.replace('-', '').replace(' ', '')
-    
-    # Must be exactly 32 hex characters
     if len(clean_id) != 32:
         return notion_id
-    
-    # Format as UUID: 8-4-4-4-12
-    formatted = f"{clean_id[:8]}-{clean_id[8:12]}-{clean_id[12:16]}-{clean_id[16:20]}-{clean_id[20:]}"
-    return formatted
+    return f"{clean_id[:8]}-{clean_id[8:12]}-{clean_id[12:16]}-{clean_id[16:20]}-{clean_id[20:]}"
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
+
+# --- This is the new, more robust scraping function ---
+def get_topics_from_public_page(notion_public_url):
+    """
+    Scrapes a public Notion page by mimicking the internal API call it uses
+    to load its content. This is more reliable than parsing raw HTML.
+    """
+    try:
+        logging.info(f"Attempting robust scrape of public Notion page: {notion_public_url}")
+        
+        # Extract the page ID from the URL
+        page_id_match = re.search(r'([a-f0-9]{32})', notion_public_url)
+        if not page_id_match:
+             # Fallback for UUID format with dashes
+            page_id_match = re.search(r'([a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})', notion_public_url)
+        
+        if not page_id_match:
+            logging.error("Could not find a valid Notion page ID in the URL.")
+            return None
+
+        page_id = page_id_match.group(1).replace('-', '')
+        logging.info(f"Extracted page ID: {page_id}")
+
+        # This is the internal API endpoint Notion uses to load page data
+        api_url = "https://www.notion.so/api/v3/loadPageChunk"
+        
+        payload = {
+            "pageId": format_notion_id(page_id), # Use the formatted UUID
+            "limit": 100, # Increased limit to get more blocks
+            "cursor": {"stack": []},
+            "chunkNumber": 0,
+            "verticalColumns": False
+        }
+        
+        session = requests.Session()
+        session.headers.update(HEADERS)
+        
+        response = session.post(api_url, json=payload, timeout=20)
+        response.raise_for_status()
+        
+        data = response.json()
+        
+        # The content is stored in the 'block' key
+        blocks = data.get("recordMap", {}).get("block", {})
+        
+        if not blocks:
+            logging.error("No content blocks found in the API response.")
+            return None
+            
+        topics = []
+        for block_id, block_value in blocks.items():
+            # Look for blocks that have a 'properties' attribute, which usually contains text
+            if 'properties' in block_value.get('value', {}):
+                properties = block_value['value']['properties']
+                if 'title' in properties:
+                    # The text is stored in a list of lists format, e.g., [['Arrays (operations, applications)']]
+                    text_segments = properties['title']
+                    full_text = "".join(segment[0] for segment in text_segments if segment)
+                    # Clean the text and check if it's a likely topic
+                    cleaned_text = re.sub(r'^\d+\.\s*', '', full_text).strip() # Remove numbering
+                    if is_likely_dsa_topic(cleaned_text):
+                        topics.append(cleaned_text)
+
+        logging.info(f"Extracted {len(topics)} potential topics using the internal API method.")
+        if topics:
+            logging.info(f"Sample topics: {topics[:5]}")
+        
+        return topics if topics else None
+        
+    except Exception as e:
+        logging.error(f"Failed to parse public Notion page with robust method: {e}", exc_info=True)
+        return None
+
 
 def get_topics_from_notion_api():
     """Try both database query and page retrieval with proper UUID formatting"""
@@ -34,11 +101,9 @@ def get_topics_from_notion_api():
         logging.info("Missing NOTION_TOKEN or NOTION_DATABASE_ID - skipping API method")
         return None
     
-    # Format the ID properly
     formatted_id = format_notion_id(NOTION_DATABASE_ID)
     logging.info(f"Using formatted ID: {formatted_id}")
     
-    # Try as page first (since most Notion links are pages)
     try:
         topics = try_page_retrieval(formatted_id)
         if topics:
@@ -47,7 +112,6 @@ def get_topics_from_notion_api():
     except Exception as e:
         logging.warning(f"Page retrieval failed: {e}")
     
-    # Then try as database
     try:
         topics = try_database_query(formatted_id)
         if topics:
@@ -59,202 +123,65 @@ def get_topics_from_notion_api():
     return None
 
 def try_database_query(formatted_id):
-    """Try to query as a database"""
     url = f"https://api.notion.com/v1/databases/{formatted_id}/query"
     headers = {
         "Authorization": f"Bearer {NOTION_TOKEN}",
         "Notion-Version": "2022-06-28",
         "Content-Type": "application/json"
     }
-    
     response = requests.post(url, headers=headers, json={}, timeout=15)
-    
     if response.status_code == 404:
-        logging.info("Resource is not a database, trying as page...")
         return None
-        
     response.raise_for_status()
     data = response.json()
-    
     topics = []
     for result in data.get("results", []):
         properties = result.get("properties", {})
-        
-        # Try different property names
-        name = None
         for prop_name in ["Name", "Topic", "Title", "name", "topic", "title"]:
             if prop_name in properties:
                 prop_data = properties[prop_name]
                 if prop_data.get("type") == "title" and prop_data.get("title"):
                     name = "".join([text.get("plain_text", "") for text in prop_data["title"]])
-                    break
-                elif prop_data.get("type") == "rich_text" and prop_data.get("rich_text"):
-                    name = "".join([text.get("plain_text", "") for text in prop_data["rich_text"]])
-                    break
-        
-        if name and name.strip():
-            topics.append(name.strip())
-    
+                    if name and name.strip():
+                        topics.append(name.strip())
+                        break
     return topics if topics else None
 
 def try_page_retrieval(formatted_id):
-    """Try to retrieve as a page and extract blocks"""
-    # First get the page
     page_url = f"https://api.notion.com/v1/pages/{formatted_id}"
     headers = {
         "Authorization": f"Bearer {NOTION_TOKEN}",
         "Notion-Version": "2022-06-28"
     }
-    
     response = requests.get(page_url, headers=headers, timeout=15)
     response.raise_for_status()
-    
-    # Then get the blocks
     blocks_url = f"https://api.notion.com/v1/blocks/{formatted_id}/children"
     response = requests.get(blocks_url, headers=headers, timeout=15)
     response.raise_for_status()
-    
     data = response.json()
     topics = []
-    
     for block in data.get("results", []):
-        # Extract text from different block types
         text = extract_text_from_block(block)
         if text and is_likely_dsa_topic(text):
             topics.append(text.strip())
-    
     return topics if topics else None
 
 def extract_text_from_block(block):
-    """Extract text from a Notion block"""
     block_type = block.get("type", "")
-    
-    if block_type in ["paragraph", "heading_1", "heading_2", "heading_3", "bulleted_list_item", "numbered_list_item"]:
+    if block_type in ["paragraph", "heading_1", "heading_2", "heading_3", "bulleted_list_item", "numbered_list_item", "to_do"]:
         rich_text = block.get(block_type, {}).get("rich_text", [])
         return "".join([text.get("plain_text", "") for text in rich_text])
-    
     return ""
 
 def is_likely_dsa_topic(text):
-    """Check if text looks like a DSA topic"""
+    """Check if text looks like a DSA topic (made slightly less strict)"""
     if not text or len(text.strip()) < 3 or len(text) > 100:
         return False
-    
-    # Clean text
-    clean_text = re.sub(r'[^\w\s\(\)\[\]/-]', '', text.strip())
-    
-    # Skip obvious non-topics
-    skip_patterns = [
-        r'^\d+\.',  # Numbers
-        r'notion',  # Notion-related
-        r'^(page|created|edited|share|duplicate)',
-        r'^(introduction|overview|conclusion)',
-    ]
-    
-    for pattern in skip_patterns:
-        if re.search(pattern, clean_text.lower()):
-            return False
-    
-    # Look for DSA keywords
-    dsa_keywords = [
-        'array', 'list', 'tree', 'graph', 'sort', 'search', 'hash', 
-        'stack', 'queue', 'heap', 'algorithm', 'dynamic', 'greedy',
-        'binary', 'linear', 'dfs', 'bfs', 'dp', 'backtrack', 'trie',
-        'linked', 'merge', 'quick', 'bubble', 'insertion', 'selection'
-    ]
-    
-    text_lower = clean_text.lower()
-    if any(keyword in text_lower for keyword in dsa_keywords):
-        return True
-    
-    # Short phrases might be topics
-    words = clean_text.split()
-    if 1 <= len(words) <= 4:
-        return True
-    
-    return False
-
-def get_topics_from_public_page(notion_public_url):
-    """Enhanced public page scraping with better selectors"""
-    try:
-        logging.info(f"Attempting to parse public Notion page: {notion_public_url}")
-        
-        # Try different approaches to get the page
-        session = requests.Session()
-        session.headers.update(HEADERS)
-        
-        response = session.get(notion_public_url, timeout=15)
-        response.raise_for_status()
-        
-        soup = BeautifulSoup(response.text, "html.parser")
-        
-        # Debug: Save HTML for inspection (remove in production)
-        # with open("debug_notion_page.html", "w", encoding="utf-8") as f:
-        #     f.write(response.text)
-        
-        candidates = []
-        
-        # Enhanced selectors for Notion pages
-        selectors = [
-            # Notion-specific selectors
-            'div[data-block-id] div[data-content-editable-leaf="true"]',
-            'div[data-block-id] [role="textbox"]',
-            'div[contenteditable="true"]',
-            '[data-block-id] .notranslate',
-            
-            # General content selectors
-            'div[data-block-id]',
-            '.notion-page-content div',
-            'p', 'li', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'
-        ]
-        
-        for selector in selectors:
-            elements = soup.select(selector)
-            for element in elements:
-                text = element.get_text().strip()
-                
-                if not text or len(text) > 100:
-                    continue
-                
-                # Enhanced filtering
-                if is_likely_dsa_topic(text):
-                    candidates.append(text)
-        
-        # Also try getting all text and splitting by lines
-        all_text = soup.get_text()
-        lines = [line.strip() for line in all_text.split('\n')]
-        for line in lines:
-            if is_likely_dsa_topic(line):
-                candidates.append(line)
-        
-        # Clean and deduplicate
-        seen = set()
-        clean_topics = []
-        
-        for candidate in candidates:
-            # Enhanced cleaning
-            cleaned = re.sub(r'[^\w\s\(\)\[\]/-]', '', candidate).strip()
-            cleaned = re.sub(r'\s+', ' ', cleaned)
-            cleaned = cleaned.replace('[x]', '').replace('[]', '').replace('[ ]', '')
-            cleaned = cleaned.strip()
-            
-            if not cleaned or len(cleaned) < 3:
-                continue
-                
-            # Skip duplicates
-            key = cleaned.lower().replace(' ', '')
-            if key not in seen and len(key) > 2:
-                seen.add(key)
-                clean_topics.append(cleaned)
-        
-        logging.info(f"Extracted {len(clean_topics)} potential topics from public page")
-        
-        # Log first few topics for debugging
-        if clean_topics:
-            logging.info(f"Sample topics: {clean_topics[:5]}")
-        
-        return clean_topics[:50] if clean_topics else None
-        
-    except Exception as e:
-        logging.error(f"Failed to parse public Notion page: {e}")
-        return None
+    clean_text = re.sub(r'[^\w\s\(\)\[\]/-]', '', text.strip()).lower()
+    skip_keywords = ['list of important topics for dsa', 'core foundations', 'basic searching', 'basic sorting', 'complex sorting', 'hashing']
+    if clean_text in skip_keywords:
+        return False
+    # General check for alpha characters
+    if not any(char.isalpha() for char in clean_text):
+        return False
+    return True

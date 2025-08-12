@@ -32,70 +32,46 @@ if os.getenv('NOTION_DATABASE_ID'):
     formatted_id = format_notion_id(db_id)
     print(f"Formatted UUID: {formatted_id}")
 
-print("\n=== Testing Notion API Connection (with formatted UUID) ===")
+print("\n=== Testing Notion API Connection (Checking Both Page and Database) ===")
 try:
     import requests
-    
+    import os
+    from utils.notion_client import format_notion_id
+
     token = os.getenv('NOTION_TOKEN')
     db_id = os.getenv('NOTION_DATABASE_ID')
     
     if token and db_id:
         formatted_id = format_notion_id(db_id)
-        
-        # Try page retrieval with formatted ID
-        page_url = f"https://api.notion.com/v1/pages/{formatted_id}"
         headers = {
             "Authorization": f"Bearer {token}",
             "Notion-Version": "2022-06-28"
         }
-        
-        print("Testing page retrieval...")
-        response = requests.get(page_url, headers=headers, timeout=10)
-        print(f"Page response: {response.status_code}")
-        
-        if response.status_code == 200:
-            print("✅ Successfully connected to Notion page!")
-            
-            # Try getting blocks
-            blocks_url = f"https://api.notion.com/v1/blocks/{formatted_id}/children"
-            response = requests.get(blocks_url, headers=headers, timeout=10)
-            print(f"Blocks response: {response.status_code}")
-            
-            if response.status_code == 200:
-                data = response.json()
-                blocks = data.get('results', [])
-                print(f"✅ Found {len(blocks)} blocks on the page!")
-                
-                # Extract and show sample content
-                topics = []
-                for i, block in enumerate(blocks[:10]):  # First 10 blocks
-                    block_type = block.get('type', 'unknown')
-                    print(f"Block {i+1}: {block_type}")
-                    
-                    # Extract text based on block type
-                    text = ""
-                    if block_type in ["paragraph", "heading_1", "heading_2", "heading_3", "bulleted_list_item", "numbered_list_item"]:
-                        rich_text = block.get(block_type, {}).get("rich_text", [])
-                        text = "".join([rt.get("plain_text", "") for rt in rich_text])
-                    
-                    if text and len(text.strip()) > 2:
-                        topics.append(text.strip())
-                        print(f"  Content: {text[:50]}...")
-                
-                print(f"\n✅ Extracted {len(topics)} potential topics:")
-                for i, topic in enumerate(topics[:5]):
-                    print(f"  {i+1}. {topic}")
-                    
-            else:
-                print(f"❌ Cannot access blocks: {response.status_code}")
-                print(f"Error: {response.text[:200]}")
-                
-        elif response.status_code == 403:
-            print("❌ Permission denied - make sure you've shared the page with your integration!")
-            print("Go to your Notion page → Share → Invite → Search for 'DSA Bot Scraper'")
+
+        # 1. Test as a Page
+        page_url = f"https://api.notion.com/v1/pages/{formatted_id}"
+        print("Testing as a page...")
+        page_response = requests.get(page_url, headers=headers, timeout=10)
+        print(f"Page response status: {page_response.status_code}")
+
+        if page_response.status_code == 200:
+            print("✅ Successfully connected to Notion as a PAGE.")
         else:
-            print(f"❌ API Error: {response.status_code}")
-            print(f"Error details: {response.text[:200]}")
+            print("❌ Not a page. Trying as a database...")
+
+            # 2. Test as a Database
+            db_url = f"https://api.notion.com/v1/databases/{formatted_id}/query"
+            db_response = requests.post(db_url, headers=headers, json={}, timeout=10)
+            print(f"Database response status: {db_response.status_code}")
+
+            if db_response.status_code == 200:
+                print("✅ Successfully connected to Notion as a DATABASE.")
+                results = db_response.json().get("results", [])
+                print(f"✅ Found {len(results)} items in the database!")
+            else:
+                print(f"❌ Failed to connect as either a page or a database.")
+                print(f"Error details: {db_response.text[:200]}")
+
     else:
         print("❌ Missing credentials")
         
