@@ -1,892 +1,1192 @@
 {
-  "arraysoperations,applications": [
+  "arrays": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Arrays+operations,+applications+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/array-data-structure/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=l2oZfqvL5c4"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/arrays-operations,-applications/"
+      "https://leetcode.com/tag/array/"
     ]
   ],
-  "linkedlistssingly/doubly/circular": [
+  "linked-lists": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Linked+Lists+singly/doubly/circular+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/data-structures/linked-list/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=njFHsLyN9zc"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/linked-lists-singly/doubly/circular/"
+      "https://leetcode.com/tag/linked-list/"
     ]
   ],
-  "stacksarray,linkedlist,usage": [
+  "stacks": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Stacks+array,+linked+list,+usage+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/stack-data-structure/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=F1F2imiOJfk"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/stacks-array,-linked-list,-usage/"
+      "https://leetcode.com/tag/stack/"
     ]
   ],
-  "queuessimple,circular,deque": [
+  "queues": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Queues+simple,+circular,+deque+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/queue-data-structure/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=jaKzmsKp4HM"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/queues-simple,-circular,-deque/"
+      "https://leetcode.com/tag/queue/"
     ]
   ],
-  "linearsearch": [
+  "linear-search": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Linear+Search+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/linear-search/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=CZ3l_v29xFY"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/linear-search/"
+      "https://leetcode.com/problemset/all/?search=Linear%20Search"
     ]
   ],
-  "binarysearchiterativeandrecursive": [
+  "binary-search": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Binary+Search+iterative+and+recursive+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/binary-search/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=oSU5jGiGq1U"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/binary-search-iterative-and-recursive/"
+      "https://leetcode.com/tag/binary-search/"
     ]
   ],
-  "bubblesort": [
+  "selection-sort": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Bubble+Sort+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/selection-sort/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=xWBP4lUhNM0"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/bubble-sort/"
+      "https://leetcode.com/tag/sort/"
     ]
   ],
-  "selectionsort": [
+  "insertion-sort": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Selection+Sort+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/insertion-sort/"
     ],
     [
-      "LeetCode Problems",
-      "https://leetcode.com/tag/selection-sort/"
-    ]
-  ],
-  "insertionsort": [
-    [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Insertion+Sort+algorithm+tutorial"
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=JU767MXtY7I"
     ],
     [
       "LeetCode Problems",
       "https://leetcode.com/tag/insertion-sort/"
     ]
   ],
-  "complexsortinganddivide&conquer": [
+  "merge-sort": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Complex+Sorting+and+Divide+&+Conquer+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/merge-sort/"
     ],
     [
-      "LeetCode Problems",
-      "https://leetcode.com/tag/complex-sorting-and-divide-&-conquer/"
-    ]
-  ],
-  "mergesort": [
-    [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Merge+Sort+algorithm+tutorial"
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=KF2j-9i8WkA"
     ],
     [
       "LeetCode Problems",
       "https://leetcode.com/tag/merge-sort/"
     ]
   ],
-  "quicksort": [
+  "quick-sort": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Quick+Sort+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/quick-sort/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=MZaf_9IZCrc"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/quick-sort/"
+      "https://leetcode.com/tag/quickselect/"
     ]
   ],
-  "heapsort": [
+  "heap-sort": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Heap+Sort+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/heap-sort/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=MtQL_LL5c20"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/heap-sort/"
+      "https://leetcode.com/tag/heap/"
     ]
   ],
-  "countingsort": [
+  "counting-sort": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Counting+Sort+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/counting-sort/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=4YRqE-uNJYM"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/counting-sort/"
+      "https://leetcode.com/tag/sort/"
     ]
   ],
-  "radixsort": [
+  "shell-sort": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Radix+Sort+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/shellsort/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=ddeLefj44lw"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/radix-sort/"
+      "https://leetcode.com/tag/shellsort/"
     ]
   ],
-  "bucketsortoptional": [
+  "hash-tables": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Bucket+Sort+optional+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/hashing-data-structure/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=MfhjkfocRR0"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/bucket-sort-optional/"
+      "https://leetcode.com/tag/hash-table/"
     ]
   ],
-  "shellsortoptional": [
+  "hash-sets": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Shell+Sort+optional+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/unordered_set-in-cpp-stl/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=w30o_EXB7lU"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/shell-sort-optional/"
-    ]
-  ],
-  "hashsets": [
-    [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Hash+Sets+algorithm+tutorial"
-    ],
-    [
-      "LeetCode Problems",
-      "https://leetcode.com/tag/hash-sets/"
+      "https://leetcode.com/tag/hash-table/"
     ]
   ],
   "recursion": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Recursion+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/recursion/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=Mv9NEXX1VHc"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/recursion/"
+      "https://leetcode.com/problem-list/recursion-i/"
     ]
   ],
-  "principlesandexamples": [
+  "principles-and-examples": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Principles+and+examples+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/binary-search/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=JsUTriDkm-g"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/principles-and-examples/"
+      "https://leetcode.com/tag/binary-search/"
     ]
   ],
-  "mathematicalrecursionfactorial,fibonacci,etc.": [
+  "mathematical-recursion": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Mathematical+recursion+factorial,+Fibonacci,+etc.+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/recursion/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=Mv9NEXX1VHc"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/mathematical-recursion-factorial,-fibonacci,-etc./"
+      "https://leetcode.com/problemset/all/?topicSlugs=recursion"
     ]
   ],
-  "backtrackingrecursionbasics": [
+  "backtracking-recursion-basics": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Backtracking+recursion+basics+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/backtracking-algorithms/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=DKCbsiDBKcw"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/backtracking-recursion-basics/"
+      "https://leetcode.com/tag/backtracking/"
     ]
   ],
-  "twopointer&slidingwindow": [
+  "two-pointer": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Two+Pointer+&+Sliding+Window+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/two-pointers-technique/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=B4btxZPd_t8"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/two-pointer-&-sliding-window/"
+      "https://leetcode.com/tag/two-pointers/"
     ]
   ],
-  "twopointerproblemse.g.,pairsum,reversearray": [
+  "two-pointer-problems": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Two+pointer+problems+e.g.,+pair+sum,+reverse+array+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/two-pointers-technique/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=jvYhJUQjT5A"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/two-pointer-problems-e.g.,-pair-sum,-reverse-array/"
+      "https://leetcode.com/tag/two-pointers/"
     ]
   ],
-  "slidingwindowmaxsubarray,stringpatterns": [
+  "sliding-window": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Sliding+window+max+subarray,+string+patterns+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/window-sliding-technique/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=MK-NZ4hN7rs"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/sliding-window-max-subarray,-string-patterns/"
+      "https://leetcode.com/tag/sliding-window/"
     ]
   ],
-  "advanceddatastructures": [
+  "advanced-data-structures": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Advanced+Data+Structures+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/b-tree-set-1-introduction-2/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=mN6tV-i7y9w"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/advanced-data-structures/"
+      "https://leetcode.com/tag/n-ary-tree/"
     ]
   ],
-  "trieprefixtree": [
+  "trie": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Trie+prefix+tree+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/trie-insert-and-search/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=TQ9U57iJJyk"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/trie-prefix-tree/"
+      "https://leetcode.com/tag/trie/"
     ]
   ],
-  "segmenttree": [
+  "segment-tree": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Segment+Tree+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/segment-tree-set-1-sum-of-given-range/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=ZBHKZF5w4YU"
     ],
     [
       "LeetCode Problems",
       "https://leetcode.com/tag/segment-tree/"
     ]
   ],
-  "fenwicktree/binaryindexedtree": [
+  "fenwick-tree": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Fenwick+Tree+/+Binary+Indexed+Tree+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree-2/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=WbafSgetDDk"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/fenwick-tree-/-binary-indexed-tree/"
+      "https://leetcode.com/tag/binary-indexed-tree/"
     ]
   ],
-  "disjointsetunionunionfind": [
+  "disjoint-set-union": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Disjoint+Set+Union+Union-Find+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/disjoint-set-data-structure/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=VJlP9w71e8Y"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/disjoint-set-union-union-find/"
+      "https://leetcode.com/tag/union-find/"
     ]
   ],
-  "selfbalancingbstsavltree,redblacktree": [
+  "self-balancing-bsts": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Self-Balancing+BSTs+AVL+Tree,+Red-Black+Tree+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/self-balancing-binary-search-tree/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=p96dFJuJ5rM"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/self-balancing-bsts-avl-tree,-red-black-tree/"
+      "https://leetcode.com/tag/binary-search-tree/"
     ]
   ],
-  "heapandpriorityqueuedetailedops": [
+  "heap-and-priority-queue": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Heap+and+Priority+Queue+detailed+ops+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/heap-data-structure/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=t0cQ6tVNRBA"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/heap-and-priority-queue-detailed-ops/"
+      "https://leetcode.com/tag/heap-priority-queue/"
     ]
   ],
-  "suffixarrayandsuffixtreeforstrings,advanced": [
+  "greedy-algorithms": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Suffix+Array+and+Suffix+Tree+for+strings,+advanced+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/greedy-algorithms/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=ARvKFc5jJRs"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/suffix-array-and-suffix-tree-for-strings,-advanced/"
+      "https://leetcode.com/tag/greedy/"
     ]
   ],
-  "btrees/b+treessystemlevel,optional": [
+  "activity": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=B-Trees/B++Trees+system-level,+optional+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=II6ziNqyOxI"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/b-trees/b+-trees-system-level,-optional/"
+      "https://leetcode.com/problem-list/5050848008466544/"
     ]
   ],
-  "bloomfilter,skiplistforcompleteness": [
+  "huffman-coding": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Bloom+Filter,+Skip+List+for+completeness+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/huffman-coding/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=JAHYR6qiWLs"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/bloom-filter,-skip-list-for-completeness/"
+      "https://leetcode.com/tag/huffman-tree/"
     ]
   ],
-  "greedyalgorithms": [
+  "fractional-knapsack": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Greedy+Algorithms+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/fractional-knapsack-problem/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=F_DDzYnxO14"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/greedy-algorithms/"
+      "https://leetcode.com/problem-list/knapsack-problems/"
     ]
   ],
-  "activity/intervalselection": [
+  "job-sequencing-with-deadlines": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Activity/Interval+Selection+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/job-sequencing-problem/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=LjPx3c1L8l8"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/activity/interval-selection/"
+      "https://leetcode.com/problem-list/job-scheduling-algorithms/"
     ]
   ],
-  "huffmancoding": [
+  "dijkstra": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Huffman+Coding+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=pVfj6mNz1gY"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/huffman-coding/"
+      "https://leetcode.com/tag/dijkstra/"
     ]
   ],
-  "fractionalknapsack": [
+  "dynamic-programming": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Fractional+Knapsack+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/dynamic-programming/"
     ],
     [
-      "LeetCode Problems",
-      "https://leetcode.com/tag/fractional-knapsack/"
-    ]
-  ],
-  "jobsequencingwithdeadlines": [
-    [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Job+Sequencing+with+Deadlines+algorithm+tutorial"
-    ],
-    [
-      "LeetCode Problems",
-      "https://leetcode.com/tag/job-sequencing-with-deadlines/"
-    ]
-  ],
-  "dijkstra’salgorithmalsograph": [
-    [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Dijkstra’s+Algorithm+also+graph+algorithm+tutorial"
-    ],
-    [
-      "LeetCode Problems",
-      "https://leetcode.com/tag/dijkstra’s-algorithm-also-graph/"
-    ]
-  ],
-  "dynamicprogramming": [
-    [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Dynamic+Programming+algorithm+tutorial"
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=OQ5uA2x0c_I"
     ],
     [
       "LeetCode Problems",
       "https://leetcode.com/tag/dynamic-programming/"
     ]
   ],
-  "fibonaccisequencedpmemo,tabulation": [
+  "fibonacci-sequence": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Fibonacci+Sequence+DP+memo,+tabulation+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=oBT53jJkQGc"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/fibonacci-sequence-dp-memo,-tabulation/"
+      "https://leetcode.com/tag/fibonacci-number/"
     ]
   ],
-  "coinchangeways,mincoins": [
+  "coin-change": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Coin+Change+ways,+min+coins+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/coin-change-dp-7/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=H9bfqozjoqs"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/coin-change-ways,-min-coins/"
+      "https://leetcode.com/tag/dynamic-programming/"
     ]
   ],
-  "longestincreasingsubsequencelis": [
+  "longest-increasing-subsequence": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Longest+Increasing+Subsequence+LIS+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/longest-increasing-subsequence-dp/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=cjWnW0hdF1Y"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/longest-increasing-subsequence-lis/"
+      "https://leetcode.com/tag/longest-increasing-subsequence/"
     ]
   ],
-  "longestcommonsubsequencelcs": [
+  "longest-common-subsequence": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Longest+Common+Subsequence+LCS+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=NnD96BjUcb0"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/longest-common-subsequence-lcs/"
+      "https://leetcode.com/tag/longest-common-subsequence/"
     ]
   ],
-  "editdistance": [
+  "edit-distance": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Edit+Distance+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/edit-distance-dp-5/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=We3YDTzNXEk"
     ],
     [
       "LeetCode Problems",
       "https://leetcode.com/tag/edit-distance/"
     ]
   ],
-  "matrixchainmultiplication": [
+  "matrix-chain-multiplication": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Matrix+Chain+Multiplication+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=DcaHhhK-Y84"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/matrix-chain-multiplication/"
+      "https://leetcode.com/problem-list/2y3m824/"
     ]
   ],
-  "subsetsum,partitionproblem": [
+  "subset-sum": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Subset+Sum,+Partition+Problem+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/subset-sum-problem-dp-25/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=s6FhG--P7z0"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/subset-sum,-partition-problem/"
+      "https://leetcode.com/problemset/all/?search=subset%20sum"
     ]
   ],
-  "dpontrees/graphs": [
+  "dp-on-trees": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=DP+on+Trees/Graphs+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/dynamic-programming-trees/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=nPtARJ2n9pw"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/dp-on-trees/graphs/"
+      "https://leetcode.com/tag/tree/"
     ]
   ],
-  "backtrackingalgorithms": [
+  "backtracking-algorithms": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Backtracking+Algorithms+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/backtracking-algorithms/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=xWa_qJ8l4qE"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/backtracking-algorithms/"
+      "https://leetcode.com/tag/backtracking/"
     ]
   ],
-  "permutations&combinations": [
+  "permutations": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Permutations+&+Combinations+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=sSjp7i3U7qE"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/permutations-&-combinations/"
+      "https://leetcode.com/tag/permutation/"
     ]
   ],
-  "powersetsubsets": [
+  "power-set": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Power+Set+subsets+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/power-set/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=b7AYbpM5YrE"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/power-set-subsets/"
+      "https://leetcode.com/problemset/all/?search=Power%20Set"
     ]
   ],
-  "nqueens": [
+  "n-queens": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=N-Queens+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=xFJXtB5QN4c"
     ],
     [
       "LeetCode Problems",
       "https://leetcode.com/tag/n-queens/"
     ]
   ],
-  "sudokusolver": [
+  "sudoku-solver": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Sudoku+Solver+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/sudoku-backtracking-7/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=G_UYXzGuqv8"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/sudoku-solver/"
+      "https://leetcode.com/tag/sudoku/"
     ]
   ],
-  "ratinamaze": [
+  "rat-in-a-maze": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Rat+in+a+Maze+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=bLBjG1vK5Fg"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/rat-in-a-maze/"
+      "https://leetcode.com/problem-list/rat-in-a-maze/"
     ]
   ],
-  "mcoloringproblem": [
+  "m-coloring-problem": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=M-Coloring+Problem+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=05m_lb1_yQc"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/m-coloring-problem/"
+      "https://leetcode.com/problem-list/2v4y5j2/"
     ]
   ],
-  "graphalgorithms": [
+  "graph-algorithms": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Graph+Algorithms+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=pVfj6mxhdfw"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/graph-algorithms/"
+      "https://leetcode.com/tag/graph/"
     ]
   ],
-  "graphrepresentationsadjacencylist/matrix": [
+  "graph-representations": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Graph+Representations+adjacency+list/matrix+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/graph-and-its-representations/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=gXEuqjv9l_4"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/graph-representations-adjacency-list/matrix/"
+      "https://leetcode.com/tag/graph/"
     ]
   ],
-  "bfsanddfswithapplications": [
+  "bfs-and-dfs": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=BFS+and+DFS+with+applications+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=TIbUeeksXcI"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/bfs-and-dfs-with-applications/"
+      "https://leetcode.com/tag/breadth-first-search/"
     ]
   ],
-  "minimumspanningtree:kruskal’sandprim’s": [
+  "minimum-spanning-tree": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Minimum+Spanning+Tree:+Kruskal’s+and+Prim’s+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/minimum-spanning-tree/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=4ZlRH0eK-ds"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/minimum-spanning-tree:-kruskal’s-and-prim’s/"
+      "https://leetcode.com/tag/minimum-spanning-tree/"
     ]
   ],
-  "dijkstra’sshortestpath": [
+  "bellman-ford": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Dijkstra’s+shortest+path+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/bellman-ford-algorithm/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=rtFG9Czydlc"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/dijkstra’s-shortest-path/"
+      "https://leetcode.com/tag/bellman-ford/"
     ]
   ],
-  "bellmanfordshortestpathwithnegativeedges": [
+  "floyd-warshall": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Bellman-Ford+shortest+path+with+negative+edges+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/floyd-warshall-algorithm/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=4OQeCuLYj-4"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/bellman-ford-shortest-path-with-negative-edges/"
+      "https://leetcode.com/tag/floyd-warshall/"
     ]
   ],
-  "floydwarshallallpairsshortestpath": [
+  "topological-sort": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Floyd-Warshall+all-pairs+shortest+path+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/topological-sorting/"
     ],
     [
-      "LeetCode Problems",
-      "https://leetcode.com/tag/floyd-warshall-all-pairs-shortest-path/"
-    ]
-  ],
-  "topologicalsort": [
-    [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Topological+Sort+algorithm+tutorial"
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=eL-KzMXSXXI"
     ],
     [
       "LeetCode Problems",
       "https://leetcode.com/tag/topological-sort/"
     ]
   ],
-  "articulationpoints,bridges": [
+  "articulation-points": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Articulation+Points,+Bridges+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=RYaakW5x7uE"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/articulation-points,-bridges/"
+      "https://leetcode.com/tag/articulation-point/"
     ]
   ],
-  "stronglyconnectedcomponentskosaraju,tarjan": [
+  "strongly-connected-components": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Strongly+Connected+Components+Kosaraju,+Tarjan+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/strongly-connected-components/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=Rpgvoz6x8mw"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/strongly-connected-components-kosaraju,-tarjan/"
+      "https://leetcode.com/tag/strongly-connected-component/"
     ]
   ],
-  "eulerian/hamiltonianpaths/cyclesrare,advanced": [
+  "network-flow": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Eulerian/Hamiltonian+paths/cycles+rare,+advanced+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/ford-fulkerson-algorithm-for-maximum-flow-problem/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=GiN3jRdgxU4"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/eulerian/hamiltonian-paths/cycles-rare,-advanced/"
+      "https://leetcode.com/tag/max-flow/"
     ]
   ],
-  "patternmatching&stringalgorithms": [
+  "eulerian": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Pattern+Matching+&+String+Algorithms+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/eulerian-path-and-circuit/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=nDMj34w-eq0"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/pattern-matching-&-string-algorithms/"
+      "https://leetcode.com/tag/graph/"
     ]
   ],
-  "kmpknuthmorrispratt": [
+  "pattern-matching": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=KMP+Knuth-Morris-Pratt+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=GTJrB7IDVdg"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/kmp-knuth-morris-pratt/"
+      "https://leetcode.com/tag/string-matching/"
     ]
   ],
-  "rabinkarp": [
+  "kmp": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Rabin-Karp+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=GTJrBwHkQnc"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/string-matching/"
+    ]
+  ],
+  "rabin-karp": [
+    [
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=QHBhPXOGJ1Y"
     ],
     [
       "LeetCode Problems",
       "https://leetcode.com/tag/rabin-karp/"
     ]
   ],
-  "zalgorithm": [
+  "z-algorithm": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Z+Algorithm+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/z-algorithm-string-pattern-searching/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=JoF2MWMa8_U"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/z-algorithm/"
+      "https://leetcode.com/problem-list/2206x16/"
     ]
   ],
-  "suffixarray/treeapplications": [
+  "suffix-array": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Suffix+Array/Tree+applications+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/suffix-array-set-1-introduction/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=m0X3-8F4FGw"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/suffix-array/tree-applications/"
+      "https://leetcode.com/tag/suffix-array/"
     ]
   ],
-  "bitmanipulation": [
+  "bit-manipulation": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Bit+Manipulation+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=NLkq3685pCw"
     ],
     [
       "LeetCode Problems",
       "https://leetcode.com/tag/bit-manipulation/"
     ]
   ],
-  "basicoperationsand,or,xor,shifts": [
+  "basic-operations": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Basic+operations+AND,+OR,+XOR,+shifts+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/array-data-structure/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=j2wqX9L16io"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/basic-operations-and,-or,-xor,-shifts/"
+      "https://leetcode.com/tag/array/"
     ]
   ],
-  "set/clear/toggle/checkbit": [
+  "set": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Set/clear/toggle/check+bit+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/set-in-cpp-stl/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=I1R8W9K6-3U"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/set/clear/toggle/check-bit/"
+      "https://leetcode.com/tag/set/"
     ]
   ],
-  "countingsetbitsbriankernighan’s": [
+  "counting-set-bits": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Counting+set+bits+Brian+Kernighan’s+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/count-set-bits-in-an-integer/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=jEuC3FhcqZY"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/counting-set-bits-brian-kernighan’s/"
+      "https://leetcode.com/tag/bit-manipulation/"
     ]
   ],
-  "bitmaskdp": [
+  "bitmask-dp": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Bitmask+DP+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/travelling-salesman-problem-using-dynamic-programming/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=JE0JE8ce1V8"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/bitmask-dp/"
+      "https://leetcode.com/tag/dynamic-programming/"
     ]
   ],
-  "tree&advancedtraversals": [
+  "tree": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Tree+&+Advanced+Traversals+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/tree-data-structure/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=qH6yxkw0v-s"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/tree-&-advanced-traversals/"
+      "https://leetcode.com/tag/tree/"
     ]
   ],
-  "inorder,preorder,postorder,levelorder": [
+  "inorder": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Inorder,+Preorder,+Postorder,+Level+Order+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/inorder-tree-traversal/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=gm8DUJJhmY4"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/inorder,-preorder,-postorder,-level-order/"
+      "https://leetcode.com/tag/tree/"
     ]
   ],
-  "morristraversalinorderwithoutstack/recursion": [
+  "morris-traversal": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Morris+Traversal+inorder+without+stack/recursion+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/morris-traversal-for-inorder/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=80Zug6D1cZ4"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/morris-traversal-inorder-without-stack/recursion/"
+      "https://leetcode.com/tag/tree/"
     ]
   ],
-  "threadedbinarytreesadvanced,optional": [
+  "threaded-binary-trees": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Threaded+Binary+Trees+advanced,+optional+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/threaded-binary-tree/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=X8tM-8Ld_E8"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/threaded-binary-trees-advanced,-optional/"
+      "https://leetcode.com/problemset/all/?search=binary%20tree"
     ]
   ],
-  "commonalgorithms&techniques": [
+  "common-algorithms": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Common+Algorithms+&+Techniques+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/binary-search/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=oSU5jGiGfjI"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/common-algorithms-&-techniques/"
+      "https://leetcode.com/tag/binary-search/"
     ]
   ],
-  "kadane’smaxsubarray": [
+  "kadane": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Kadane’s+max+subarray+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=86CQq3pKSUw"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/kadane’s-max-subarray/"
+      "https://leetcode.com/tag/kadanes-algorithm/"
     ]
   ],
-  "fastexponentiationbinaryexponentiation": [
+  "fast-exponentiation": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Fast+Exponentiation+binary+exponentiation+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/exponential-squaring-fast-exponentiation/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=e0IgKl2mU9w"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/fast-exponentiation-binary-exponentiation/"
+      "https://leetcode.com/tag/powx-n/"
     ]
   ],
-  "lrucacheimplementation": [
+  "randomized-algorithms": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=LRU+Cache+implementation+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/randomized-algorithms/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=jgvKjGE-D1c"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/lru-cache-implementation/"
+      "https://leetcode.com/problemset/all/?topicSlugs=random"
     ]
   ],
-  "practiceandpatterns": [
+  "lru-cache-implementation": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Practice+and+Patterns+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/lru-cache/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=7ABFKPK2hD4"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/practice-and-patterns/"
+      "https://leetcode.com/tag/lru-cache/"
     ]
   ],
-  "timeandspacecomplexityanalysis": [
+  "practice-and-patterns": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Time+and+space+complexity+analysis+algorithm+tutorial"
+      "GeeksforGeeks Design Patterns",
+      "https://www.geeksforgeeks.org/design-patterns-set-1-introduction/"
+    ],
+    [
+      "Derek Banas YouTube - Design Patterns",
+      "https://www.youtube.com/playlist?list=PLF206E90617C7E4A7"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/time-and-space-complexity-analysis/"
+      "https://leetcode.com/problem-list/design-patterns/"
     ]
   ],
-  "edge/cornercasesforalldsatypes": [
+  "mock-interview-rounds": [
     [
-      "Youtube",
-      "https://www.youtube.com/results?search_query=Edge/corner+cases+for+all+DSA+types+algorithm+tutorial"
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/how-to-prepare-for-technical-interviews/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=09wG4p_y4Hg"
     ],
     [
       "LeetCode Problems",
-      "https://leetcode.com/tag/edge/corner-cases-for-all-dsa-types/"
+      "https://leetcode.com/problemset/all/"
+    ]
+  ],
+  "time-and-space-complexity-analysis": [
+    [
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/understanding-time-complexity-simple-examples/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=v4cd17u9wOU"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/problem-list/xoq0x12/"
+    ]
+  ],
+  "edge": [
+    [
+      "GeeksforGeeks Article",
+      "https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/"
+    ],
+    [
+      "YouTube Tutorial",
+      "https://www.youtube.com/watch?v=gXEuZWf7p-Y"
+    ],
+    [
+      "LeetCode Problems",
+      "https://leetcode.com/tag/graph/"
     ]
   ]
 }
